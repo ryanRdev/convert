@@ -1,14 +1,15 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>1. Upload your file</h1>
-    <input type="file" id="file" accept=".jpg,.jpeg,.png,.webp,.svg">>
+    <input type="file" id="upload" accept=".jpg,.jpeg,.png,.webp,.svg">
 
     <h1>2. Choose a file type to transfer to</h1>
-    <select name="file" id="file">
+    <select name="file" id="filetype">
         <option value=""></option>
         <option value="JPEG">JPEG (.jpg, .jpeg)</option>
         <option value="PNG">PNG (.png)</option>
@@ -16,5 +17,6 @@
         <option value="SVG">SVG (.svg)</option>
     </select>
 <br><br><br><br>
-    <button>Convert</button>
+    <button id="convertBtn">Convert</button>
 </body>
+</html>
